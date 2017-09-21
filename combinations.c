@@ -59,8 +59,8 @@ void print_all_combinations(char *c, int n, int m)
 	while(!(generate_all_combinations(a,n,m)))
 		{
 			for(i=0; i < m;i++)
-		      printf("%c ",*(c+*(a+i)-1));//match every index to letter in c array
-			  printf("\n");
+		   	   printf("%c ",*(c+*(a+i)-1));//match every index to letter in c array
+			printf("\n");
 		}
 	free(a);
 }
