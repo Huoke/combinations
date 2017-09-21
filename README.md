@@ -1,2 +1,2 @@
 # combinations
-generates combinations of symbols from string by m
+generates combinations of symbols from string length n by k
